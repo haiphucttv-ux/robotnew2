@@ -119,6 +119,9 @@
 #define CHECKSUM_CHECK_ICMP6 0
 /*-----------------------------------------------------------------------------*/
 /* USER CODE BEGIN 1 */
+#ifdef ROBOT_MICROROS
+#define LWIP_SO_RCVTIMEO 1
+#endif
 
 /* USER CODE END 1 */
 
