@@ -1,0 +1,9 @@
+../Application/User/Core/ps2.c:37:13:PS2_DelayUs	24	static
+../Application/User/Core/ps2.c:47:13:PS2_BeginTransaction	8	static
+../Application/User/Core/ps2.c:57:13:PS2_EndTransaction	8	static
+../Application/User/Core/ps2.c:67:16:PS2_TransferByte	24	static
+../Application/User/Core/ps2.c:97:13:PS2_TransferFrame	32	static
+../Application/User/Core/ps2.c:113:13:PS2_ConfigureAnalog	8	static
+../Application/User/Core/ps2.c:140:9:PS2_ReadState	56	static
+../Application/User/Core/ps2.c:202:9:PS2_Init	16	static
+../Application/User/Core/ps2.c:241:6:PS2_ReconfigureAnalog	8	static

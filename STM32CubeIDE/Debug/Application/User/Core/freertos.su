@@ -1,0 +1,4 @@
+C:/Users/haiph/Downloads/robotnew2/Core/Src/freertos.c:101:6:vApplicationGetIdleTaskMemory	24	static
+C:/Users/haiph/Downloads/robotnew2/Core/Src/freertos.c:118:6:MX_FREERTOS_Init	72	static
+C:/Users/haiph/Downloads/robotnew2/Core/Src/freertos.c:183:6:StartDefaultTask	16	static
+C:/Users/haiph/Downloads/robotnew2/Core/Src/freertos.c:218:6:StartPS2Task	24	static
