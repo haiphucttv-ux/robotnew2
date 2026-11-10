@@ -31,8 +31,6 @@
 #include "usb_device.h"
 #include "gpio.h"
 
-// Thien da tung o day
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
