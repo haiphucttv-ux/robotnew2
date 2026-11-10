@@ -766,5 +766,10 @@
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/USB_DEVICE/Target/usbd_conf.c</locationURI>
 		</link>
+		<link>
+			<name>Application/User/Core/robot_microros.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/robot_microros.c</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

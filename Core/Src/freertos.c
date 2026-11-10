@@ -19,6 +19,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdint.h>
+#ifdef ROBOT_MICROROS
+#include "robot_microros.h"
+#endif
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -191,6 +194,10 @@ void StartDefaultTask(void const *argument)
     MX_LWIP_Init();
 
     /* USER CODE BEGIN StartDefaultTask */
+#ifdef ROBOT_MICROROS
+    osThreadDef(microRosTask, Robot_MicroRosTask, osPriorityBelowNormal, 0, 4096);
+    (void)osThreadCreate(osThread(microRosTask), NULL);
+#endif
 
     for (;;)
     {
